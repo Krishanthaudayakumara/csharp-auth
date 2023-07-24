@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/antoniopapa/dev/youtube/c#/auth/auth.csproj": {}
+    "D:\\Github\\csharp-auth\\auth.csproj": {}
   },
   "projects": {
-    "/Users/antoniopapa/dev/youtube/c#/auth/auth.csproj": {
+    "D:\\Github\\csharp-auth\\auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/antoniopapa/dev/youtube/c#/auth/auth.csproj",
+        "projectUniqueName": "D:\\Github\\csharp-auth\\auth.csproj",
         "projectName": "auth",
-        "projectPath": "/Users/antoniopapa/dev/youtube/c#/auth/auth.csproj",
-        "packagesPath": "/Users/antoniopapa/.nuget/packages/",
-        "outputPath": "/Users/antoniopapa/dev/youtube/c#/auth/obj/",
+        "projectPath": "D:\\Github\\csharp-auth\\auth.csproj",
+        "packagesPath": "C:\\Users\\Krishantha\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\csharp-auth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/antoniopapa/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Krishantha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,10 +77,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
